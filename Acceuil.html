@@ -1,40 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>NovaTech Solutions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovaTech Solutions | Dépannage, réseau et cybersécurité</title>
+    <meta name="description" content="NovaTech Solutions accompagne particuliers et professionnels pour le dépannage informatique, les réseaux, la sauvegarde et la cybersécurité à Annecy.">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <h1>Bienvenue chez NovaTech Solutions</h1>
-        <nav>
-            <ul>
-                <li><a href="Acceuil.html">Accueil</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+<body data-page="accueil">
+
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="NovaTech Solutions - Accueil">
+            <span class="brand-mark">N</span><span>NovaTech Solutions</span>
+        </a>
+        <nav class="nav-links" aria-label="Navigation principale">
+            <a href="index.html" data-page="accueil">Accueil</a>
+            <a href="entreprise.html" data-page="entreprise">L'entreprise</a>
+            <a href="services.html" data-page="services">Services</a>
+            <a href="realisations.html" data-page="realisations">Réalisations</a>
+            <a href="contact.html" data-page="contact">Contact</a>
         </nav>
-    </header>
+        <div class="header-actions">
+            <button class="icon-button" type="button" data-theme-toggle aria-label="Changer de thème">☀</button>
+            <a class="btn btn-primary header-contact" href="contact.html">Demander un devis</a>
+            <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+        </div>
+    </div>
+</header>
 
-    <main>
-        <section>
-            <h2>Nos Services</h2>
-            <p>Nous offrons une gamme complète de solutions technologiques pour répondre à vos besoins.</p>
-        </section>
+<main id="contenu">
 
-        <section>
-            <h2>À propos de nous</h2>
-            <p>NovaTech Solutions est une entreprise innovante spécialisée dans le développement de logiciels et la fourniture de services informatiques.</p>
-        </section>
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="reveal">
+                <span class="eyebrow">Informatique • Réseau • Cybersécurité</span>
+                <h1>Votre informatique, <span>sans complication.</span></h1>
+                <p class="lead">NovaTech Solutions accompagne particuliers, indépendants et PME avec des solutions informatiques fiables, sécurisées et adaptées à leurs besoins.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="contact.html">Obtenir un diagnostic</a>
+                    <a class="btn btn-secondary" href="services.html">Découvrir nos services</a>
+                </div>
+                <div class="hero-badges">
+                    <span class="badge">✓ Intervention rapide</span>
+                    <span class="badge">✓ Devis clair</span>
+                    <span class="badge">✓ Assistance à distance</span>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <img src="images/hero.svg" alt="Illustration d'un réseau informatique NovaTech Solutions">
+                <div class="floating-card">Support du lundi au samedi<small>Assistance sur site ou à distance</small></div>
+            </div>
+        </div>
+    </section>
 
-        <section>
-            <h2>Contactez-nous</h2>
-            <p>Pour toute question ou demande, n'hésitez pas à nous contacter via notre page de contact.</p>
-        </section>
-    </main>
+    <section class="trustbar" aria-label="Chiffres clés">
+        <div class="container trust-grid">
+            <div class="trust-item"><strong>8 ans</strong><span>d'expérience IT</span></div>
+            <div class="trust-item"><strong>450+</strong><span>interventions par an</span></div>
+            <div class="trust-item"><strong>98%</strong><span>de clients satisfaits</span></div>
+            <div class="trust-item"><strong>&lt; 2 h</strong><span>délai moyen de prise en charge</span></div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 NovaTech Solutions. Tous droits réservés.</p>
-    </footer>
+    <section class="section">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="eyebrow">Nos expertises</span>
+                <h2>Un seul interlocuteur pour votre informatique</h2>
+                <p>Du poste de travail au réseau, nous intervenons sur les besoins du quotidien comme sur les projets d'infrastructure.</p>
+            </div>
+            <div class="grid-3">
+                <article class="card reveal"><div class="service-icon">🛠️</div><h3>Dépannage informatique</h3><p>Diagnostic des pannes, lenteurs, erreurs système, périphériques et logiciels.</p></article>
+                <article class="card reveal"><div class="service-icon">🌐</div><h3>Réseaux & Wi-Fi</h3><p>Installation, configuration, optimisation et sécurisation de vos connexions.</p></article>
+                <article class="card reveal"><div class="service-icon">🛡️</div><h3>Cybersécurité</h3><p>Protection des postes, bonnes pratiques, durcissement et sécurisation des accès.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-sm">
+        <div class="container split">
+            <div class="reveal">
+                <span class="eyebrow">Pourquoi NovaTech ?</span>
+                <h2>Une informatique conçue pour rester disponible</h2>
+                <p>Nous privilégions des solutions simples à maintenir, documentées et adaptées à la réalité de chaque client.</p>
+                <ul class="checklist">
+                    <li>Explications claires, sans jargon inutile</li>
+                    <li>Solutions adaptées au budget et aux usages</li>
+                    <li>Prévention des incidents, pas seulement dépannage</li>
+                    <li>Suivi et assistance après intervention</li>
+                </ul>
+            </div>
+            <img class="reveal" src="images/entreprise.svg" alt="Illustration de l'équipe NovaTech Solutions">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container cta reveal">
+            <div><h2>Un problème informatique ?</h2><p>Expliquez-nous votre besoin. Nous revenons vers vous avec une première orientation et, si nécessaire, une proposition d'intervention.</p></div>
+            <a class="btn btn-primary" href="contact.html">Nous contacter</a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <a class="brand" href="index.html"><span class="brand-mark">N</span><span>NovaTech Solutions</span></a>
+                <p style="margin-top:14px;max-width:440px">Dépannage, infrastructure, sauvegarde et cybersécurité pour les particuliers et les professionnels d'Annecy et ses environs.</p>
+            </div>
+            <div>
+                <h3>Navigation</h3>
+                <div class="footer-links">
+                    <a href="entreprise.html">L'entreprise</a><a href="services.html">Services</a>
+                    <a href="realisations.html">Réalisations</a><a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div>
+                <h3>Nous joindre</h3>
+                <div class="footer-links">
+                    <a href="tel:+33450582480">04 50 58 24 80</a>
+                    <a href="mailto:contact@novatech-solutions.fr">contact@novatech-solutions.fr</a>
+                    <span style="color:var(--muted)">12 avenue du Parmelan, 74000 Annecy</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© <span data-year></span> NovaTech Solutions. Tous droits réservés.</span>
+            <span>Site vitrine réalisé en HTML5, CSS3 et JavaScript.</span>
+        </div>
+    </div>
+</footer>
+<button class="back-to-top" type="button" aria-label="Retour en haut">↑</button>
+<script src="js/script.js"></script>
+
 </body>
 </html>
